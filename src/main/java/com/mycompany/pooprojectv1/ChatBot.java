@@ -76,7 +76,7 @@ public class ChatBot {
             }
             
             // si la cantidad de respuestas es igual a ... entonces se deja de ejecutar el metodo
-            if(contador == 2){
+            if(contador == 1){
                 return;
             }
         }

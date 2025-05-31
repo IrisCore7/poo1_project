@@ -1,6 +1,12 @@
-{hola},sabes,algo => Puedo asistirte con temas relacionados con: Reglamento de Estudios y normativas, Calendario Académico, Matrícula y procesos vinculados, Trámites académicos, Eventos y actividades académicas, así como Reclamos y quejas (Libro de Reclamaciones)
-{pued,que,sab},ayuda => te puedo ayudar en temas de reglamento de Estudios y normativas, Calendario Académico, Matrícula y procesos vinculados, Trámites académicos, Eventos y actividades académicas, así como Reclamos y quejas (Libro de Reclamaciones)
+{hol},han => Hola Alumno, en que puedo ayudarte: Reglamento de Estudios y normativas, Calendario Académico, Matrícula y procesos vinculados, Trámites académicos, Eventos y actividades académicas, así como Reclamos y quejas (Libro de Reclamaciones)
 
-{com,requi,paso,docum,quisi,sab},matricu => como alumno, para matricularte tienes hasta el 4 de agosto para el ciclo 2 segun el calendario 2025, solo debes hacer el pago en tu infosil que es aproximado S/295, recuerda estar al dia en tus pagos
-{cost,pag},matricu => el costo de matricula para el ciclo 2025-2 es aproximado S/295, recuerda estar al dia en tus pagos
+{ayu,asi},mucho, => me alegra oir eso, estoy aqui para ayudar al alumno
+{muc,verd,},gracias, => me alegra haberle ayudado
+
+{pued,sab,quisi},ayud => claro te puedo ayudar en temas de Reglamento de Estudios y normativas, Calendario Académico, Matrícula y procesos vinculados, Trámites académicos, Eventos y actividades académicas, así como Reclamos y quejas (Libro de Reclamaciones)
+{hola},sabes,algo => Puedo asistirte con temas relacionados con: Reglamento de Estudios y normativas, Calendario Académico, Matrícula y procesos vinculados, Trámites académicos, Eventos y actividades académicas, así como Reclamos y quejas (Libro de Reclamaciones)
+{pued,que,sab},ayud => te puedo ayudar en temas de reglamento de Estudios y normativas, Calendario Académico, Matrícula y procesos vinculados, Trámites académicos, Eventos y actividades académicas, así como Reclamos y quejas (Libro de Reclamaciones)
+
 {for,med},matricu => Los pagos en línea se realiza en el Infosil y los medios de pagos son BBVA, BCP, Interbank, Scotiabank debito o credito, recuerda estar al dia en tus pagos
+{cost,pag},matricu => el costo de matricula para el ciclo 2025-2 es aproximado S/295, recuerda estar al dia en tus pagos
+{com,requi,paso,docum,quisi,sab},matricu => como alumno, para matricularte tienes hasta el 4 de agosto para el ciclo 2 segun el calendario 2025, solo debes hacer el pago en tu infosil que es aproximado S/295, recuerda estar al dia en tus pagos
