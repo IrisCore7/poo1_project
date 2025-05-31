@@ -5,11 +5,13 @@
 package com.mycompany.pooprojectv1;
 
 import java.awt.Component;
+import java.awt.Dimension;
 import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JTextArea;
 import javax.swing.border.Border;
 import javax.swing.border.CompoundBorder;
 
@@ -189,17 +191,25 @@ public class MainWindow extends javax.swing.JFrame {
         // === MENSAJE DE LA IA (A LA IZQUIERDA) ===
         
         for (String respuesta : chatbot.getRespuestas()) {
-            JLabel iaLabel = new JLabel(respuesta);
-            iaLabel.setFont(new java.awt.Font("Segoe UI", 0, 18));
-            iaLabel.setOpaque(true);
-            iaLabel.setBackground(new java.awt.Color(255, 255, 255)); // color gris claro
-            iaLabel.setBorder(new CompoundBorder(line, padding));
+            JTextArea iaTextArea = new JTextArea(respuesta);
+            iaTextArea.setFont(new java.awt.Font("Segoe UI", 0, 18));
+            iaTextArea.setLineWrap(true);
+            iaTextArea.setWrapStyleWord(true);
+            iaTextArea.setEditable(false);
+            iaTextArea.setFocusable(false);
+            iaTextArea.setOpaque(true);
+            iaTextArea.setBackground(new java.awt.Color(255, 255, 255)); // blanco o gris claro
+            iaTextArea.setBorder(new CompoundBorder(line, padding));
+
+            // Ajustar tamaño preferido opcionalmente
+            iaTextArea.setMaximumSize(new Dimension(400, Integer.MAX_VALUE));
+
 
             JPanel iaMessagePanel = new JPanel();
             iaMessagePanel.setLayout(new BoxLayout(iaMessagePanel, BoxLayout.X_AXIS));
             iaMessagePanel.setOpaque(false);
 
-            iaMessagePanel.add(iaLabel);
+            iaMessagePanel.add(iaTextArea);
             iaMessagePanel.add(Box.createHorizontalGlue()); // empuja el mensaje a la izquierda
 
             this.jPanel_messagesContainer.add(iaMessagePanel);
