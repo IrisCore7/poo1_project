@@ -1,3 +1,9 @@
+{vin,ve,lleg,fu},no,exam => si el examen al que no vinistes, es parcial o final, puedes solicitarlo en INFOSIL dentro de los 2 días posteriores a la inasistencia
+{rezag,resag},que,es => El examen de rezagado es una evaluación adicional para los estudiantes que no pudieron rendir su examen parcial o final en la fecha programada. Puedes solicitarlo en INFOSIL dentro de los 2 días posteriores a la inasistencia.
+{exam,rezag,resag},cost => "Examen final rezagado: S/160; Examen de inglés: S/120."
+{quie,com,soli,dam},rezag => solo es para el Examen final rezagado: S/160 y  Examen de inglés: S/120, ingresas a INFOSIL > Trámites > Académicos > Examen Rezagado
+{quie,com,soli,dam},resag => solo es para el Examen final rezagado: S/160 y  Examen de inglés: S/120, ingresas a INFOSIL > Trámites > Académicos > Examen Rezagado
+
 {qui,com},ere => Alumno, yo soy Hanna su asistente virtual para temas academicos.
 {cua,com},llamas => Soy Hanna su asistente virtual para temas academicos.
 
@@ -14,4 +20,8 @@
 
 {for,med},matricu => Los pagos en línea se realiza en el Infosil y los medios de pagos son BBVA, BCP, Interbank, Scotiabank debito o credito, recuerda estar al dia en tus pagos
 {cost,pag},matricu => el costo de matricula para el ciclo 2025-2 es aproximado S/295, recuerda estar al dia en tus pagos
-{com,requi,paso,docum,quisi,sab},matricu => como alumno, para matricularte tienes hasta el 4 de agosto para el ciclo 2 segun el calendario 2025, solo debes hacer el pago en tu infosil que es aproximado S/295, recuerda estar al dia en tus pagos
+{com,requi,paso,docum,quisi,sab},matricu => como alumno, para matricularte tienes hasta el 4 de agosto para el ciclo 2 segun el calendario 2025, solo debes hacer el pago en tu infosil que es aproximado S/295, recuerda estar al dia en tus pagos, Servicios Académicos > Matrícula > Proceso de Matrícula
+
+{com,hag,rea,cre,gen},hor => Para hacer tu horario, sigue estos pasos: Ingresa a INFOSIL y revisa los cursos que debes llevar según tu malla curricular, consulta los grupos disponibles y sus horarios para cada curso, Elige los grupos que no se crucen y que se ajusten a tu disponibilidad, asegúrate de no superar el límite de créditos permitidos, finalmente, realiza tu matrícula seleccionando esos grupos.
+{choq,cruc},curs,hora,matr => Si tus cursos tienen cruce de horario, puedes solicitar una modificación de matrícula desde INFOSIL, en la sección Trámites > Académicos. Recuerda que debes justificar el motivo y que está sujeto a aprobación de tu facultad.
+{que,quier,llev,gus},no,hor => Entendemos que el horario puede no ser el ideal para ti. Sin embargo, los grupos disponibles ya están establecidos por la facultad. Si tienes una situación especial, puedes escribir a tu coordinador académico atencionalumno@usil.edu.pe para ver si hay alguna alternativa, aunque no podemos garantizar un cambio.

@@ -8,16 +8,11 @@ package com.mycompany.pooprojectv1;
  *
  * @author IrisCore7
  */
-public class Alumno {
-    
+public class Curso {
     private String codigo;
-    private String nombres;
-    private String apellidos;
-    private String correo;
-    private Object puedeMatricularse; // deudas pendientes, Bloqueos administrativos
+    private String nombre;
+    private String profesor;
     private Object puedeExamenResagado; //  Si asistió presencial o zoom, si solicito dentro de los 2 dias plazo
     private Object reclamoNota; //
     private Object retiroCurso; //
-    private Object retiroCiclo; //
-    private Object condicionAcademica; // Alerta o observación académica
 }
