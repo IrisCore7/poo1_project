@@ -7,7 +7,7 @@
 {qui,com},ere => Alumno, yo soy Hanna su asistente virtual para temas academicos.
 {cua,com},llamas => Soy Hanna su asistente virtual para temas academicos.
 
-{hol,ol}, => olis Alumno, en que puedo ayudarte?: Reglamento de Estudios y normativas, Calendario Académico, Matrícula y procesos vinculados, Trámites académicos, Eventos y actividades académicas, así como Reclamos y quejas (Libro de Reclamaciones)
+{hol,ol}, => Hola Alumno, en que puedo ayudarte?: Reglamento de Estudios y normativas, Calendario Académico, Matrícula y procesos vinculados, Trámites académicos, Eventos y actividades académicas, así como Reclamos y quejas (Libro de Reclamaciones)
 {hol},han => Hola Alumno, en que puedo ayudarte: Reglamento de Estudios y normativas, Calendario Académico, Matrícula y procesos vinculados, Trámites académicos, Eventos y actividades académicas, así como Reclamos y quejas (Libro de Reclamaciones)
 
 {ayu,asi},mucho, => me alegra oir eso, estoy aqui para ayudar al alumno
@@ -16,6 +16,8 @@
 {cual,que,alg,lo},tem,acad => temas academicos como Reglamento de Estudios y normativas, Calendario Académico, Matrícula y procesos vinculados, Trámites académicos, Eventos y actividades académicas, así como Reclamos y quejas (Libro de Reclamaciones)
 {pued,sab,quisi},ayud => claro te puedo ayudar en temas de Reglamento de Estudios y normativas, Calendario Académico, Matrícula y procesos vinculados, Trámites académicos, Eventos y actividades académicas, así como Reclamos y quejas (Libro de Reclamaciones)
 {hola},sabes,algo => Puedo asistirte con temas relacionados con: Reglamento de Estudios y normativas, Calendario Académico, Matrícula y procesos vinculados, Trámites académicos, Eventos y actividades académicas, así como Reclamos y quejas (Libro de Reclamaciones)
+{que,puedes,algo},pue,hac => Puedo asistirte con temas relacionados con: Reglamento de Estudios y normativas, Calendario Académico, Matrícula y procesos vinculados, Trámites académicos, Eventos y actividades académicas, así como Reclamos y quejas (Libro de Reclamaciones)
+{que,puedes,algo},hac => Puedo asistirte con temas relacionados con: Reglamento de Estudios y normativas, Calendario Académico, Matrícula y procesos vinculados, Trámites académicos, Eventos y actividades académicas, así como Reclamos y quejas (Libro de Reclamaciones)
 {pued,que,sab},ayud => te puedo ayudar en temas de reglamento de Estudios y normativas, Calendario Académico, Matrícula y procesos vinculados, Trámites académicos, Eventos y actividades académicas, así como Reclamos y quejas (Libro de Reclamaciones)
 
 {for,med},matricu => Los pagos en línea se realiza en el Infosil y los medios de pagos son BBVA, BCP, Interbank, Scotiabank debito o credito, recuerda estar al dia en tus pagos

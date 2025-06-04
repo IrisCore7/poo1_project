@@ -4,6 +4,9 @@
 
 package com.mycompany.pooprojectv1;
 
+import com.mycompany.pooprojectv1.estudiante.Alumno;
+import com.mycompany.pooprojectv1.universidad.MatriculaUniversidad;
+import java.text.ParseException;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
@@ -13,7 +16,7 @@ import javax.swing.UnsupportedLookAndFeelException;
  */
 public class Pooprojectv1 {
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws ParseException {
         
         /*
             TEMAS DE INTERFAZ:
@@ -24,12 +27,25 @@ public class Pooprojectv1 {
             Windows Classic - com.sun.java.swing.plaf.windows.WindowsClassicLookAndFeel
         */
         
+        Alumno alumno = new Alumno(
+            "A20251234",                   // código
+            "Carlos",                      // nombres
+            "Gonzales Ramos",             // apellidos
+            "carlos.gonzales@uni.edu.pe"  // correo
+        );
+
+        
+        MatriculaUniversidad matriculaUniversidad = new MatriculaUniversidad("03/06/25 08:30:00", "30/06/25 18:30:00", 264.99);
+        
+        ChatBot chatbot = new ChatBot("Hanna", matriculaUniversidad, alumno);
+        
         try {
             UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
         } catch (ClassNotFoundException | IllegalAccessException | InstantiationException | UnsupportedLookAndFeelException e) {
         }
                 
         MainWindow window = new MainWindow();
+        window.addChatbot(chatbot); // agregamos el chatbot
         window.setVisible(true);
         window.setLocationRelativeTo(null);
     }

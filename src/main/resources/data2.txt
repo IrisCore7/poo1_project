@@ -1,0 +1,12 @@
+{comi,ini,empi,cuan,fech}matricu{} => La matricula matriculaUniversidad.inicia()
+{for,med}matricu{} => Los pagos en línea se realiza en el Infosil y los medios de pagos son BBVA, BCP, Interbank, Scotiabank debito o credito, recuerda estar al dia en tus pagos
+{cost,pag,prec}matricu{for,pag} => el costo de matricula es de matriculaUniversidad.precio(), recuerda estar al dia en tus pagos
+{com,requi,paso,docum,quisi,sab}matricu{cost,pag} => para matricularte no debes tener deudas pendientes, realizar el proceso dentro de las fechas establecidas y completar el proceso en línea
+{com,requi,paso,docum,quisi,sab}matricu{cost,pag} => como alumno, la matricula matriculaUniversidad.inicia(), solo debes hacer el pago en tu infosil que es matriculaUniversidad.precio(), recuerda estar al dia en tus pagos, Servicios Académicos > Matrícula > Proceso de Matrícula
+{pue,esta,yo}puedo,matri{} => alumno su estado de matricula es: alumno.getEstadoProximaMatricula()
+{cua,pue,quisi,sab}selec,hora{} => si usted se matriculo, la seleccion de horario sería: alumno.getProximaMatriculaSeleccionCursos()
+{cua,quis,sab,dam,darm}cod,alum{} => Su codigo de alumno es: alumno.getCodigo()
+{cua,quis,sab,dam,pue,darm}correo{} => Su correo institucional es: alumno.getCodigo()
+{regis,ingre,gene,solic,dar,queja,hac}reclamo{} => ok alumno, escriba el motivo de su reclamo para ingresarlo al sistema
+{regis,ingre,gene,solic,dar,queja,hac}queja{} => ok alumno, escriba el motivo de su reclamo para ingresarlo al sistema
+{cono,sab,va,solic,dam,ve}est,recla{} => ok alumno, escriba el motivo de su reclamo para buscarlo y saber su estado

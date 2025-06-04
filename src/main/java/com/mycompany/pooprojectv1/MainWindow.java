@@ -22,7 +22,7 @@ import javax.swing.border.CompoundBorder;
 public class MainWindow extends javax.swing.JFrame {
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(MainWindow.class.getName());
-    private final ChatBot chatbot = new ChatBot("Hanna");
+    private ChatBot chatbot;
     
     /**
      * Creates new form MainWindow
@@ -157,6 +157,10 @@ public class MainWindow extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+    
+    public void addChatbot(ChatBot chatbot){
+        this.chatbot = chatbot;
+    }
     
     private void jButton_sendActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_sendActionPerformed
         // Crear un borde visible (gris claro)
